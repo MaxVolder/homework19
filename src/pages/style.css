@@ -1,0 +1,175 @@
+.navigator{
+    padding: 20px 30px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+.navigator a {
+color: aliceblue;
+font-size: 1.325rem;
+
+}
+
+.navigator a:hover {
+    color: aqua;
+
+}
+
+
+.post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+  
+  .post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .author-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .author-details h3 {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  .nickname {
+    color: #777;
+    font-size: 0.8rem;
+  }
+  
+  .post-content {
+    margin: 0 0 10px 0;
+  }
+  
+  .post-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .post-date {
+    color: #777;
+    font-size: 0.8rem;
+    
+  }
+  
+
+  .gender-icon {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  
+  .gender-icon.male:before {
+    content: "♂";
+    color: blue;
+  }
+  
+  .gender-icon.female:before {
+    content: "♀";
+    color: pink;
+  }
+  
+   .contact {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .contact:last-child {
+    border-bottom: none;
+  }
+  
+  .contact .gender {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .contact .gender.male {
+    background-color: blue;
+  }
+  
+  .contact .gender.female {
+    background-color: pink;
+  }
+  
+  .contact .details {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .contact p {
+    margin: 0;
+  }
+
+  
+      
+   
+
+  .search-bar {
+    margin-bottom: 10px;
+    justify-content: center;
+    inline-size: 250px;
+    align-items: center;
+  }
+  
+  .checkboxes {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+      }
+  
+  .checkboxes label {
+    margin-right: 10px;
+  }
+  
+  .slider-container {
+    width: 100%;
+    max-width: 600px; 
+    margin: 0 auto; 
+  }
+  
+  
+  .carousel .slide img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .carousel .control-arrow {
+    background-color: transparent;
+    color: #333; /* Колір стрілок */
+    border-radius: 50%; /* Зробіть круглі кнопки */
+    width: 50px; /* Задайте ширину і висоту кнопки */
+    height: 50px;
+    font-size: 24px; /* Розмір шрифту стрілки всередині круга */
+    line-height: 40px;
+    transition: background-color 0.3s, color 0.3s; /* Плавна анімація при наведенні */
+  }
+  
+  /* Зміна кольору при наведенні */
+  .carousel .control-arrow:hover {
+    background-color: #a82c2c;
+    color: #080808;
+  }
+
+  .homestyle {
+color: black;
+background-color: #a82c2c;
+align-self: center;
+
+  }
