@@ -9,7 +9,7 @@ import './pages/style.css'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/homework19">
       <div>
         <nav className='navigator'>
           
