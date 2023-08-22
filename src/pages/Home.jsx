@@ -7,7 +7,7 @@ const deadpoolImage = [
 const Home = () => {
   return (
     <div className="welcome-container">
-    <h2>Welcome!</h2>
+    <h4>Wellcome!</h4>
     <img id="deadpool-image" src={deadpoolImage} alt="Deadpool" />
     
   </div>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Not Found</title>
+  <script>
+    // Redirect to index.html on 404
+    var url = window.location.href;
+    if (url.endsWith('/')) {
+      url += 'homework19/';
+    } else {
+      url += '/homework19/';
+    }
+    window.location.replace(url);
+  </script>
+</head>
+<body>
+  <p>This page could not be found. Redirecting...</p>
+</body>
+</html>
