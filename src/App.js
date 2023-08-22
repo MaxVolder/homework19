@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import Publications from './pages/Publications';
 import Photos from './pages/Photos';
@@ -9,7 +9,7 @@ import './pages/style.css'
 
 function App() {
   return (
-    <Router basename="/homework19">
+    <Router>
       <div>
         <nav className='navigator'>
           
